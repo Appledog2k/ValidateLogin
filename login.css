@@ -1,0 +1,80 @@
+.login {
+    margin-top: 200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(179, 246, 223);
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: block;
+    width: 100%;
+}
+
+.form .item {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.item input {
+    padding: 10px;
+    outline: none;
+}
+
+.login .login-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-btn button {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.error {
+    color: red;
+}
+.show-highlight {
+    border:3px rgb(249, 6, 6) ridge;
+}
+.showSuccess {
+    border:3px rgb(6, 249, 14) ridge;
+}
+.tooltiptext {
+    /* visibility: hidden; */
+    width: 120px;
+    background-color: rgb(56, 212, 25);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    right: 40px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(56, 212, 25) transparent transparent transparent;
+}

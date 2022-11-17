@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="" href="./login.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+        <script src="./login.js"></script>
+    </head>
+    <body>
+        <div class="login">
+            <header class="header">
+                <h1>Đăng nhập</h1>
+            </header>
+            <form action="" class="form" id="form-login">
+                <div class="email item" >
+                    <label for="email">Email</label>
+                    <input id="email" type="text" name="myEmail" placeholder="Vui lònghập email của bạn."/>
+                    <span class="tooltiptext">Tooltip text</span>
+                </div>
+
+                <div class="password item">
+                    <label for="pass">Password</label>
+                    <input id="pass" type="password" name="myPassword" placeholder="Vui lòng nhập mật khẩu."/>
+                    <span class="tooltiptext">Tooltip text</span>
+                </div>
+                <div class="login-btn">
+                    <button id="btn1" type="submit" value="Đăng nhập">Đăng nhập</button>
+                </div>
+                <div>
+                    <p id="invalid"></p>
+                </div>
+            </form>
+            
+        </div>
+
+    </body>
+</html>
